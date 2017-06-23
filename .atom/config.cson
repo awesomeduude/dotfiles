@@ -1,0 +1,12 @@
+"*":
+  core:
+    disabledPackages: [
+      "language-javascript"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  "exception-reporting":
+    userId: "9daea7f1-47f8-406c-9a32-965c942837d7"

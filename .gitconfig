@@ -1,0 +1,29 @@
+[user]
+	name = Calvin Grewal
+	email = calvingrewal28@gmail.com
+[credential]
+	helper = osxkeychain
+[alias]
+	st = status
+	co = checkout
+        aa = add .
+        br = branch
+	lg = log --graph --pretty=format:'%C(magenta)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+  ui = true
+[color "branch"]
+  current = green reverse
+  local = magenta 
+  remote = green
+[color "diff"]
+  meta = blue bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = magenta
+  changed = green
+  untracked = cyan
