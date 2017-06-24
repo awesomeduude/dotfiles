@@ -8,6 +8,7 @@
 	co = checkout
         aa = add .
         br = branch
+        unstage = reset HEAD --
 	lg = log --graph --pretty=format:'%C(magenta)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [color]
   branch = auto
