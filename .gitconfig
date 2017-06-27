@@ -11,6 +11,7 @@
         unstage = reset HEAD --
         ci = commit
         cm = commit -m
+        cam = commit -a -m
 	lg = log --graph --pretty=format:'%C(magenta)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [color]
   branch = auto
