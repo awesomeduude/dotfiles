@@ -12,6 +12,7 @@
         ci = commit
         cm = commit -m
         cam = commit -a -m
+        d = diff
 	lg = log --graph --pretty=format:'%C(magenta)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [color]
   branch = auto
