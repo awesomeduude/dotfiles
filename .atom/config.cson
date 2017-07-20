@@ -1,12 +1,18 @@
 "*":
+  "atom-package-deps":
+    ignored: [
+      "linter-eslint"
+    ]
   core:
     disabledPackages: [
       "language-javascript"
     ]
     telemetryConsent: "limited"
     themes: [
-      "seti-ui"
-      "seti-syntax"
+      "atom-material-ui"
+      "atom-material-syntax"
     ]
+  editor:
+    fontSize: 16
   "exception-reporting":
     userId: "9daea7f1-47f8-406c-9a32-965c942837d7"
