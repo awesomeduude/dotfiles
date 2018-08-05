@@ -15,6 +15,11 @@ Plug 'https://github.com/spf13/vim-autoclose.git'
 Plug 'mattn/emmet-vim'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'leafgarland/typescript-vim'
+Plug 'scrooloose/nerdcommenter'
 
 " Initialize plugin system
 call plug#end()
@@ -48,7 +53,11 @@ set number relativenumber
 " Set color scheme
 set t_Co=256
 syntax on
+filetype plugin on
 colorscheme minimalist
+
+" set filetypes as typescript.jsx
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=javascript.jsx
 
 " show existing tab with 2 spaces width
 set tabstop=2
