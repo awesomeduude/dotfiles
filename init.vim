@@ -65,6 +65,11 @@ set tabstop=2
 set shiftwidth=2
 " On pressing tab, insert 2 spaces
 set expandtab
+set autoindent
+
+" moves along rows, not lines
+nnoremap j gj
+nnoremap k gk
 
 " let g:airline_theme='minimalist'
 " let g:airline_powerline_fonts = 1
